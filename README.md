@@ -1,10 +1,17 @@
-# StreamDeckSharp
+<div align="center">
+  <img src="https://raw.githubusercontent.com/OpenStreamDeck/StreamDeckSharp/master/doc/images/banner/StreamDeckSharpBanner_150px.png">
+</div>
 
-StreamDeckSharp is a simple (unofficial) .NET interface for the Stream Deck (https://www.elgato.com/de/gaming/stream-deck).
-This project is not related to _Elgato Systems GmbH_ in any way.
+-----------------
+
+**StreamDeckSharp is a simple (unofficial) .NET interface for the [Elgato Stream Deck](https://www.elgato.com/en/gaming/stream-deck)**
+
+[![GitHub release](https://img.shields.io/github/release/OpenStreamDeck/StreamDeckSharp.svg)](https://github.com/OpenStreamDeck/StreamDeckSharp/releases) [![license](https://img.shields.io/github/license/OpenStreamDeck/StreamDeckSharp.svg)](https://github.com/OpenStreamDeck/StreamDeckSharp/blob/master/LICENSE.md)
+
+#### [Recent Changes](CHANGELOG.md)
 
 ## Quickstart _(TL;DR)_
-***At the moment only Windows is supported (tested with 10, should also work with 7 and 8)***
+***At the moment only Windows is supported (tested with 10, should also work with 8, 7, Vista and XP)***
 1. Add StreamDeckSharp reference (via nuget or download latest release)
 2. Add a using directive for StreamDeckSharp: `using StreamDeckSharp;`
 
@@ -54,3 +61,16 @@ namespace StreamDeckSharp.Examples.Austria
 Here is what the "Rainbow" example looks like after pressing some keys
 
 ![Rainbow example photo](doc/images/rainbow_example.png?raw=true "Rainbow demo after pressing some keys")
+
+### Play video on StreamDeck
+Here is a short demo of playing a video on the stream deck device.
+
+[![Demo video of the example](https://i.imgur.com/8tlkaIg.png)](http://www.youtube.com/watch?v=tNwUG0sPmKw)
+
+More about that in the Wiki: [Play video on StreamDeck](https://github.com/OpenStreamDeck/StreamDeckSharp/wiki/Play-video-on-StreamDeck)
+
+---
+ 
+###### This project is not related to *Elgato Systems GmbH* in any way
+
+---
